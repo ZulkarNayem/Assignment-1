@@ -19,7 +19,7 @@ nav {
 }
 
 .btn-nav {
-    font-size: 18;
+    font-size: 18px;
     font-weight: bold;
     color: #006A50;
     background-color: #F5F5F5;
@@ -52,6 +52,7 @@ nav {
     background-color: #C6E4D6;
     margin: 80px 200px;
     padding: 60px 80px;
+    box-shadow:  10px 10px 100px rgba(170, 170, 170, 0.69);
 }
 
 .banner-content {
@@ -74,12 +75,14 @@ nav {
 }
 
 .btn-primary {
-    margin-top: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
     background-color: #006A50;
-    color: #FFFFFF;
     border: none;
     border-radius: 8px;
-    padding: 17px 34px;
+    padding: 11px 20px;
+    margin-top: 24px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -101,9 +104,9 @@ nav {
 }
 
 /* pillar section style*/
-.piller {
+.pillar {
     align-items: start;
-    margin: 160px 220px;
+    margin: 80px 220px;
 }
 
 .pillar-heading {
@@ -113,17 +116,17 @@ nav {
 }
 
 .pillar-card-container {
-    margin: 80px 0;
+    margin: 40px 0;
     display: flex;
     gap: 28px;
     text-align: left;
 }
 
-.piller-card {
+.pillar-card {
     padding: 30px;
     border: 1px solid rgba(0, 0, 0, 0.151);
     border-radius: 16px;
-    box-shadow: 50px 20px 50px 0 rgba(0, 0, 0, 0.06);
+    box-shadow:  10px 10px 100px rgba(170, 170, 170, 0.69);
 }
 
 .pillar-card-heading {
@@ -143,10 +146,12 @@ nav {
 /* card styles */
 .cards {
     align-items: start;
-    margin: 160px 220px;
+    margin: 80px 220px 16px 220px;
 }
 .vision-text{
     margin-top: 20px;
+    color: #0E0E0E;
+    opacity: 70%;
 }
 .card-container {
     margin: 40px 0;
@@ -160,18 +165,21 @@ nav {
     background-color: rgba(84, 143, 245, 0.205);
     border-radius: 16px;
     padding: 24px;
+    box-shadow:  10px 10px 100px rgba(170, 170, 170, 0.69);
 }
 
 .container-item2 {
     background-color: rgba(9, 161, 93, 0.205);
     border-radius: 16px;
     padding: 24px;
+    
 }
 
 .container-item3 {
     background-color: rgba(255, 196, 57, 0.205);
     border-radius: 16px;
     padding: 24px;
+    box-shadow:  10px 10px 100px rgba(170, 170, 170, 0.69);
 }
 
 .card-heading {
@@ -187,7 +195,7 @@ nav {
 }
 
 .btn-blue {
-    font-size: 18;
+    font-size: 18px;
     font-weight: bold;
     color: white;
     background-color: #5490F5;
@@ -210,7 +218,7 @@ nav {
     border: 2px solid #5490F5;
 }
 .btn-green { 
-    font-size: 18;
+    font-size: 18px;
     font-weight: bold;
     color: white;
     background-color: #09A15C;
@@ -233,7 +241,7 @@ nav {
     border: 2px solid #09A15C;
 }
 .btn-yellow {
-    font-size: 18;
+    font-size: 18px;
     font-weight: bold;
     color: white;
     background-color: #FFC239;
@@ -254,4 +262,97 @@ nav {
     background-color: white;
     color: #FFC239;
     border: 2px solid #FFC239;
+}
+/* Dr muhammad Yunus */
+.yunus{
+    border: 1px solid hsla(0, 0%, 5%, 0.164);
+    padding: 48px 24px;
+    border-radius: 16px;
+    align-items: start;
+    margin: 16px 220px 100px 220px;
+    text-align: justify;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 20px;
+    box-shadow: 10px 10px 100px rgba(170, 170, 170, 0.69);
+}
+/* recent news section style */
+.recent-news{
+    align-items: start;
+    margin: 80px 220px;
+}
+.news-title{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news-container{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    box-shadow: 10px 10px 100px rgba(170, 170, 170, 0.69);
+}
+.news-img{
+    background: url(assets/satelite.png);
+    border-radius: 24px;
+    background-repeat: no-repeat;
+}
+.news-content-heading{
+    margin: 40px 0 12px 0;
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 80%;
+}
+.news-date-time{
+    margin: 12px 0 12px 0;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news-content{
+    color: #0E0E0E;
+    opacity: 70%;
+}
+/* donate style */
+.donate{
+    text-align: center;
+    margin: 80px 248px;
+}
+.donate-heading{
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 24px;
+}
+.donate-description{
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 32px;
+}
+.donate-btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.button6 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    margin-top: 32px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid hwb(0 5% 95% / 0.151);
+}
+
+.button6:hover {
+    background-color: white;
+    color: #ffb300;
+    border: 2px solid #ffb300;
 }
