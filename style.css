@@ -61,3 +61,37 @@ nav{
 .banner-img{
 
 }
+/* pillar section style*/
+.piller{
+    align-items: start;
+    margin: 160px 220px;
+}
+.pillar-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.pillar-card-container{
+    margin: 80px 0;
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+.piller-card{
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 16px;
+    box-shadow: 50px 20px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.pillar-card-heading{
+    margin-top: 40px;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pillar-card-content{
+    margin-top: 25px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
