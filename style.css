@@ -48,7 +48,7 @@ nav{
 .banner-heading{
     margin-top: 16px;
     color: #0E0E0E;
-    font-size: 56px;
+    font-size: 40px;
 }
 .btn-primary{
     margin-top: 24px;
@@ -59,7 +59,9 @@ nav{
     padding: 17px 34px;
 }
 .banner-img{
-
+    height: 470px;
+    width: 400px;
+    padding-right: 50px;
 }
 /* pillar section style*/
 .piller{
