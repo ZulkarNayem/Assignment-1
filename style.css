@@ -45,7 +45,7 @@ nav {
 /* banner styles */
 
 .banner-container {
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,11 +56,18 @@ nav {
     padding: 60px 80px;
     box-shadow:  10px 10px 100px rgba(170, 170, 170, 0.69);
 }
-
+.banner-container h1{
+    text-align: left;
+    margin-top: 16px;
+    color: #0E0E0E;
+    font-size: 30px;
+}
 .banner-content {
     margin-right: 60px;
     padding-right: 60px;
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     background-color: #C6E4D6;
 
 }
@@ -69,12 +76,6 @@ nav {
     color: #0E0E0E;
     opacity: 50%;
     font-size: 24px;
-}
-
-.banner-heading {
-    margin-top: 16px;
-    color: #0E0E0E;
-    font-size: 30px;
 }
 
 .btn-primary {
@@ -110,7 +111,7 @@ nav {
 
 /* pillar section style*/
 .pillar {
-    align-items: start;
+    align-items: left;
     margin: 80px 160px;
 }
 
@@ -148,7 +149,7 @@ nav {
     opacity: 70%;
 }
 
-/* card styles */
+/* vision card styles */
 .cards {
     align-items: start;
     margin: 80px 160px 16px 160px;
@@ -281,6 +282,75 @@ nav {
     background-position: 24px 20px;
     box-shadow: 10px 10px 100px rgba(170, 170, 170, 0.69);
 }
+/* opinion styles */
+.opinion-container{
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+  
+.opinion-heading{
+    margin-left: 160px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+  
+.opinion-table-container{
+    height: auto;
+    width: auto;
+    margin: 32px 160px;
+    padding: 32px;
+    border-radius: 16px;
+    overflow-x: auto; 
+    box-shadow: 10px 10px 100px rgba(170, 170, 170, 0.69);
+}
+  
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+  
+thead{
+    background-color: #C6E4D6;
+    border: 1px solid #c5ecda;
+}
+thead th{
+    padding: 20px;
+    border: none;
+    background-color: #C6E4D6;
+}
+  
+th, td{
+    padding: 20px;
+    border: 1px solid #0e0e0e28;
+
+}
+  
+th {
+    font-weight: bold;
+}
+  
+td:first-child{
+    width: 70%; 
+}
+  
+td select{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    font-size: 14px;
+}
+  
+tbody tr:nth-child(odd){
+    background-color: #ffffff;
+}
+.opinion select{
+    cursor: pointer;
+}
+  
 /* recent news section style */
 .recent-news{
     align-items: start;
@@ -293,10 +363,9 @@ nav {
     opacity: 70%;
 }
 .news-container{
-    height: 300px;
-    width: 1280px;
+    height: auto;
+    width: auto;
     margin-bottom: 24px;
-    margin-right: 160px;
     display: flex;
     justify-content: space-around;
     gap: 32px;
@@ -332,6 +401,8 @@ nav {
     margin: 80px 248px;
 }
 .donate-heading{
+    font-size: 40px;
+    font-weight: bold;
     color: #0E0E0E;
     opacity: 80%;
     margin-bottom: 24px;
@@ -339,7 +410,7 @@ nav {
 .donate-description{
     color: #0E0E0E;
     opacity: 70%;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 .donate-btn-container{
     display: flex;
@@ -353,7 +424,7 @@ nav {
     opacity: 80%;
     background-color: white;
     border-radius: 8px;
-    padding: 30px;
+    padding: 30px 10px;
     margin-top: 32px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -373,7 +444,8 @@ nav {
 }
 .input-field{
     margin-top: 32px;
-    padding: 20px 422.5px;
+    padding: 20px 300px;
+    border-radius: 8px;
     border: none;
     box-shadow: 10px 10px 100px rgba(170, 170, 170, 0.815);
     font-size: 20px;
@@ -445,7 +517,7 @@ footer > h2{
     color: #0E0E0E;
 }
 hr{
-    margin: 32px 239px 106px;
+    margin: 20px 239px 50px;
     opacity: 10%;
 }
 .footer-link{
@@ -453,6 +525,6 @@ hr{
     display: flex;
     justify-content: center;
     gap: 23px;
-    margin-top: 32px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
