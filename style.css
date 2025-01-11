@@ -45,8 +45,9 @@ nav {
 /* banner styles */
 
 .banner-container {
+    height: 300px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: left;
     border-radius: 24px;
@@ -73,7 +74,7 @@ nav {
 .banner-heading {
     margin-top: 16px;
     color: #0E0E0E;
-    font-size: 56px;
+    font-size: 30px;
 }
 
 .btn-primary {
@@ -100,9 +101,11 @@ nav {
     border: 2px solid #006A50;
 }
 .banner-img {
-    height: 470px;
-    width: 400px;
     padding-right: 50px;
+}
+.banner-img img{
+    height: 270px;
+    width: 300px;
 }
 
 /* pillar section style*/
@@ -125,7 +128,7 @@ nav {
 }
 
 .pillar-card {
-    padding: 30px;
+    padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.151);
     border-radius: 16px;
     box-shadow:  10px 10px 100px rgba(170, 170, 170, 0.69);
@@ -290,7 +293,10 @@ nav {
     opacity: 70%;
 }
 .news-container{
+    height: 300px;
+    width: 1280px;
     margin-bottom: 24px;
+    margin-right: 160px;
     display: flex;
     justify-content: space-around;
     gap: 32px;
@@ -298,13 +304,14 @@ nav {
     border-radius: 24px;
     box-shadow: 10px 10px 100px rgba(170, 170, 170, 0.69);
 }
-.news-img{
-    background: url(assets/satelite.png);
-    border-radius:  30px 30px 30px 30px;
-    background-repeat: no-repeat;
+.news-img img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    display: block;
 }
 .news-content-heading{
-    margin: 40px 0 12px 0;
+    margin: 20px 0 12px 0;
     color: #0E0E0E;
     font-size: 32px;
     font-weight: bold;
