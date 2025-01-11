@@ -336,7 +336,7 @@ nav {
 .donate-btn-container{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
 }
 .button6 {
     font-size: 40px;
@@ -345,7 +345,7 @@ nav {
     opacity: 80%;
     background-color: white;
     border-radius: 8px;
-    padding: 40px;
+    padding: 30px;
     margin-top: 32px;
     transition-duration: 0.4s;
     cursor: pointer;
